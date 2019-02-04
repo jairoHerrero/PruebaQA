@@ -1,0 +1,18 @@
+[INFO  - 2019-02-01T12:05:46.877Z] GhostDriver - Main - running on port 53941
+[INFO  - 2019-02-01T12:05:48.340Z] Session [b623ace0-2619-11e9-94dd-3d709cc4a7fe] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-02-01T12:05:48.340Z] Session [b623ace0-2619-11e9-94dd-3d709cc4a7fe] - page.customHeaders:  - {}
+[INFO  - 2019-02-01T12:05:48.340Z] Session [b623ace0-2619-11e9-94dd-3d709cc4a7fe] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-02-01T12:05:48.340Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b623ace0-2619-11e9-94dd-3d709cc4a7fe
+[ERROR - 2019-02-01T12:05:49.440Z] Session [b623ace0-2619-11e9-94dd-3d709cc4a7fe] - page.onError - msg: TypeError: undefined is not an object (evaluating 'r[n].call')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-01T12:05:49.441Z] Session [b623ace0-2619-11e9-94dd-3d709cc4a7fe] - page.onError - stack:
+  t (http://stage.panel.stage.do.linkitox.com/static/js/manifest.8883c728191189361d4e.js:1)
+  NHnr (http://stage.panel.stage.do.linkitox.com/static/js/app.8883c728191189361d4e.js:1)
+  t (http://stage.panel.stage.do.linkitox.com/static/js/manifest.8883c728191189361d4e.js:1)
+  webpackJsonp (http://stage.panel.stage.do.linkitox.com/static/js/manifest.8883c728191189361d4e.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-01T12:05:51.714Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1549022751653
+
+  phantomjs://platform/console++.js:263 in error
